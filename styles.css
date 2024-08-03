@@ -100,6 +100,32 @@ nav {
     color: var(--heading-color-dark);
 }
 
+.product-info {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.product-info ul {
+    max-width: 50vw;
+    margin: 1rem auto;
+}
+
+.product-info li {
+    padding: 0.25rem 0;
+    line-height: 1.2rem;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.product-subtitle {
+    font-weight: 500;
+    font-style: italic;
+    padding: 0.5rem 0;
+}
+
 .disclaimer {
     font-style: italic;
     font-weight: 500;
