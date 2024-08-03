@@ -6,7 +6,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-        <title>Product Page</title>
+        <title>Get a Plumbus!</title>
         <link
             rel="stylesheet"
             href="styles.css"
@@ -27,37 +27,184 @@
     </head>
     <body>
         <header id="header">
-            <h1 id="product-heading">Product Name</h1>
+            <h1 id="product-heading">Plumbus</h1>
+            <!-- TODO: remove dev image for prod -->
             <img
-                src="#"
-                alt="an image of the product"
+                src="plumbus-promo.png"
+                width="400"
+                alt="an image of a plumbus on a yellow radial background"
                 id="header-img"
             />
+            <!-- PROD IMG: -->
+            <!-- <img
+                src="https://i.imgur.com/52insSp.png"
+                width="400"
+                alt="an image of a plumbus on a yellow radial background"
+                id="header-img"
+            /> -->
             <nav id="nav-bar">
                 <ul class="nav-list">
-                    <li class="nav-link">
+                    <li>
                         <a
-                            href="#"
-                            class="nav-link1"
-                            >Link 1</a
+                            href="#features"
+                            class="nav-link"
+                            id="nav-link1"
+                            >Features</a
                         >
                     </li>
-                    <li class="nav-link">
+                    <li class>
                         <a
-                            href="#"
-                            class="nav-link2"
-                            >Link 2</a
+                            href="#how-it-works"
+                            class="nav-link"
+                            id="nav-link2"
+                            >How It Works</a
                         >
                     </li>
-                    <li class="nav-link">
+                    <li>
                         <a
-                            href="#"
-                            class="nav-link3"
-                            >Link 3</a
+                            href="#pricing"
+                            class="nav-link"
+                            id="nav-link3"
+                            >Pricing</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#contact"
+                            class="nav-link"
+                            id="nav-link4"
+                            >Contact</a
                         >
                     </li>
                 </ul>
             </nav>
         </header>
+        <section class="product-info">
+            <h2
+                class="section-heading"
+                id="features"
+            >
+                Features
+            </h2>
+            <div class="product-images">
+                <!-- PROD IMGS: -->
+                <!-- <img
+                    class="plumbus-slides"
+                    id="product-image1"
+                    alt="an image of the front and back of a Plubmus"
+                    src="https://i.imgur.com/giB4W2N.png"
+                    width="300"
+                />
+                <img
+                    class="plumbus-slides"
+                    id="product-image2"
+                    alt="an image of a Plubmus"
+                    src="https://i.imgur.com/NZh0yUx.png"
+                    width="300"
+                    />
+                    <img
+                    class="plumbus-slides"
+                    id="product-image3"
+                    alt="an image of a Plubmus"
+                    src="https://i.imgur.com/MqENpgu.png"
+                    width="300"
+                    />
+                    <img
+                    class="plumbus-slides"
+                    id="product-image4"
+                    alt="an image of a Plubmus"
+                    src="https://i.imgur.com/jmM62nu.png"
+                    width="300"
+                    />
+                    <img
+                    class="plumbus-slides"
+                    id="product-image5"
+                    alt="an image of a Plubmus"
+                    src="https://i.imgur.com/KOrhKVn.png"
+                    width="300"
+                    /> -->
+                <!-- TODO: remove dev imgs for prod -->
+                <img
+                    class="plumbus-slides"
+                    id="product-image1"
+                    alt="an image of the front and back of a Plubmus"
+                    src="plumbus-product-view.jpg"
+                    width="300"
+                />
+                <img
+                    class="plumbus-slides"
+                    id="product-image2"
+                    alt="an image of a Plubmus"
+                    src="plumbus-in-the-kitchen.png"
+                    width="300"
+                />
+                <img
+                    class="plumbus-slides"
+                    id="product-image3"
+                    alt="an image of a Plubmus"
+                    src="plumbus_lg.png"
+                    width="300"
+                />
+                <img
+                    class="plumbus-slides"
+                    id="product-image4"
+                    alt="an image of a Plubmus"
+                    src="plumbus-with-box.png"
+                    width="300"
+                />
+                <img
+                    class="plumbus-slides"
+                    id="product-image5"
+                    alt="an image of a Plubmus"
+                    src="plumbus-box-rear.png"
+                    width="300"
+                />
+                <div class="product-description">
+                    <p class="product-title">Plumbus</p>
+                    <p class="product-subtitle">Every household needs one!</p>
+                    <p class="product-blurb">
+                        A Plumbus will aid in many things in life, making life
+                        easier. With proper maintienance, handling, storage and
+                        care, Plumbus will provide you a lifetime of better
+                        living and happiness.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="how-it-works">
+            <h2
+                class="section-heading"
+                id="how-it-works"
+            >
+                How It Works
+            </h2>
+            <iframe
+                id="video"
+                width="519"
+                height="292"
+                src="https://www.youtube.com/embed/eMJk4y9NGvE"
+                title="Plumbus: How They Do It | Rick and Morty | Adult Swim"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
+        </section>
+        <section class="product-pricing">
+            <h2
+                class="section-heading"
+                id="pricing"
+            >
+                Pricing
+            </h2>
+        </section>
+        <section class="contact-us">
+            <h2
+                class="section-heading"
+                id="contact"
+            >
+                Contact
+            </h2>
+        </section>
     </body>
 </html>
