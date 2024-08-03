@@ -1,8 +1,62 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html {
     font-size: 16px;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.0325rem;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-container {
+    width: 5rem;
+    height: 5rem;
+}
+
+.header-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.section-heading {
+    font-family: Gupter, serif;
+    letter-spacing: 0.0325rem;
+}
+
+.disclaimer {
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* TODO: animate using @keyframes slideshow {} ? */
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 1.2rem;
+        margin: 1rem 2rem;
+    }
 }
