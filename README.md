@@ -1,6 +1,7 @@
 # Certification Project: Product Landing Page
 One of the required projects for freeCodeCamp's Responsive Web Design certification.
 
+_**Codepen:** [https://codepen.io/ell8031/pen/poXPwqY](https://codepen.io/ell8031/pen/poXPwqY)_
 
 ## Project Description
 
