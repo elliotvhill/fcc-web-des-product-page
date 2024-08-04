@@ -265,13 +265,14 @@
             >
                 Sign Up
             </h2>
-            <p class="signup-description">Sign up for our mailing list for an extra inter-galactic discount!</p>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <label for="email">Email</label>
-                <input name="email" type="email" id="email" placeholder="plumbus@example.com">
-                <label for="submit"></label>
-                <input name="submit" type="submit" id="submit" value="Sign Up">
-            </form>
+            <div class="form-container">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="email" class="signup-description">Sign up for our mailing list<span class="mobile-hide"> for an extra inter-galactic discount</span>!</label>
+                    <input name="email" type="email" id="email" placeholder="plumbus@example.com">
+                    <label for="submit"></label>
+                    <input name="submit" type="submit" id="submit" value="Sign Up">
+                </form>
+            </div>
         </section>
         <script src="https://kit.fontawesome.com/db1ff0de8c.js" crossorigin="anonymous"></script>
     </body>
