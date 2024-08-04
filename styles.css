@@ -143,6 +143,9 @@ nav {
 }
 
 .video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2;
     position: relative;
     padding-bottom: 56.25%;
 }
@@ -154,6 +157,8 @@ iframe {
     top: 0;
     left: 0;
     flex-flow: column;
+    max-width: 640px;
+    max-height: 320px;
 }
 
 .disclaimer {
