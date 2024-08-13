@@ -97,6 +97,11 @@ nav {
     display: none;
 }
 
+#home-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 #hero-img {
     display: flex;
     margin: 0 auto;
@@ -267,11 +272,11 @@ footer {
     .logo-container {
         display: none;
     }
-    
+
     .nav-list {
         display: none;
     }
-    
+
     #mobile-menu {
         align-items: center;
         margin-left: 0;
@@ -280,16 +285,16 @@ footer {
         margin-right: 1rem;
         padding: 1rem;
     }
-    
+
     .product-info li {
         line-height: 1.3;
         padding-top: 1rem;
     }
-    
+
     .form-container {
         width: 70vw;
     }
-    
+
     form input {
         padding: 1rem;
     }
@@ -299,16 +304,16 @@ footer {
     body {
         font-size: 1.2rem;
     }
-    
+
     .nav-list {
         font-size: 0.9rem;
         font-weight: 500;
     }
-    
+
     .mobile-hide {
         display: none;
     }
-    
+
     .signup-description {
         font-size: 1.5rem;
     }
@@ -320,7 +325,7 @@ footer {
         flex-direction: column;
         flex-wrap: unset;
     }
-    
+
     #product-model1,
     #product-model2,
     #product-model3 {
